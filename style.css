@@ -4,7 +4,12 @@
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
-
+header {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
 :root {
   --primary-color: #9f3647; 
 }
@@ -77,8 +82,9 @@
 }
 hr{
   border: 1px solid #9f3647;
+  background-color: black;
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
 }
 .tendencia{
   background-color: black;
@@ -135,4 +141,24 @@ hr{
               width: 95%;
               height: 95%;
               object-fit: cover;
-          }}}}
+          }
+        }
+      }
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+      margin: 1px; 
+      padding: 1px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: #6e212e; 
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #cf445b; 
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--primary-color); 
+    }
