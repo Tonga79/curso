@@ -53,3 +53,86 @@
   color:white;
   font-size: 2rem;
 }
+.buscadorPeliculas{
+  height: 50vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputBuscador{
+  height: 50px;
+  border-radius: 25px;
+  border-color: white;
+  font-size: 1rem;
+  width: 500px;
+}
+.botonBuscador{
+  display: inline-block;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 25px;
+  border-color: white;
+  font-size: 1rem;
+}
+hr{
+  border: 1px solid #9f3647;
+  width: 80%;
+  margin: 0 auto;
+}
+.tendencia{
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.pelicula{
+  text-align: center;
+  display: flex;
+  height: 200px;
+  padding: 10px;
+  justify-content: center;
+  
+}
+.peliculas{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:60px;
+}
+.peliculasAclamadas{
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+
+  .tituloSection{
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+  }
+  .aclamadas{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0px 0px 40px 0px;
+      .peliculaItem{
+          border-radius: 25px;
+          width: 170px;
+          min-width: 170px;
+          font-size: 20px;
+          cursor: pointer;
+          margin-left: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+         
+          .imgAclamada{
+              border-radius: 5%;
+              width: 95%;
+              height: 95%;
+              object-fit: cover;
+          }}}}
