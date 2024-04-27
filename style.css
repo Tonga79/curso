@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
 :root {
   --primary-color: #9f3647; 
 }
@@ -6,6 +13,7 @@
 .cabezaypie {
   background-color: var(--primary-color);
   border: #9f3647;
+  
 }
 
 
@@ -17,9 +25,31 @@
   /*no pude cambiar el color cuando pongo el mouse encima*/
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+  padding: 10px;
   color: white;
   font-weight: bold;
 }
-section{
-  color: black;
+.main{
+  color:white;
+  background: linear-gradient(#0000008a,#0000008a),url("img/banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  
+}
+.titulo{
+  color:white;
+  font-size: 4rem;
+  
+}
+.subtitulo{
+  color:white;
+  font-size: 2rem;
 }
