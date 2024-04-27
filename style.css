@@ -162,3 +162,18 @@ hr{
     ::-webkit-scrollbar-thumb:hover {
       background: var(--primary-color); 
     }
+.login{
+  color:white;
+  background: linear-gradient(#0000008a,#0000008a),url("img/bg-register.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  
+}
